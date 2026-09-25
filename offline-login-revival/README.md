@@ -46,6 +46,8 @@ offline-login-revival/
 
 保存后退出并重启 opencode 生效。
 
+> 在**另一个项目**中使用、以及每个阶段可直接复制的指令，见仓库根目录的 [USAGE.md](../USAGE.md)。
+
 ## 参考实现
 
 `blueoath-revival` 类项目：C++ x86 注入 Payload + `getaddrinfo`/libcurl/UnityTLS 运行时 hook + SDK 登录伪造 + .NET 本地服务端（HTTP 引导 + KCP/UDP 游戏登录 + protobuf）。可作阶段模板，但请勿直接复制服别常量。
